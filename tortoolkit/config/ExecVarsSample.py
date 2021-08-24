@@ -21,13 +21,13 @@ except:
         GD_INDEX_URL = False
 
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 40
+        EDIT_SLEEP_SECS = 20
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 1700000000
+        TG_UP_LIMIT = 2097152000
 
         # Should force evething uploaded into Document
-        FORCE_DOCUMENTS = False
+        FORCE_DOCUMENTS = True
 
         # Chracter to use as a completed progress 
         COMPLETED_STR = "▰"
@@ -96,7 +96,7 @@ except:
         ENABLE_BETA_YOUTUBE_DL = True
 
         # Max size direct link
-        MAX_DL_LINK_SIZE = 10
+        MAX_DL_LINK_SIZE = 300
 
         # SA Account Enable/Disable. Read the readme.md before using this feature.
         ENABLE_SA_SUPPORT_FOR_GDRIVE = False
@@ -110,7 +110,7 @@ except:
         DEF_RCLONE_DRIVE = ""
 
         # Max size of a playlist that is allowed (Number of videos)
-        MAX_YTPLAYLIST_SIZE = 20
+        MAX_YTPLAYLIST_SIZE = 100
         
         # Max size of the torrent allowed
         MAX_TORRENT_SIZE = 10
@@ -126,7 +126,7 @@ except:
         USETTINGS_IN_PRIVATE = False
 
         # Torrent max time to collect metadata in seconds
-        TOR_MAX_TOUT = 180
+        TOR_MAX_TOUT = 900
 
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
