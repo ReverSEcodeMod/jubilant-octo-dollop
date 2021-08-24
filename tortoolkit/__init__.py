@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-__version__ = "2.0.1.alpha"
-__author__ = "YashDK Github@yash-dk"
+__version__ = "1.3.4.alpha"
+__author__ = "ThanksToAuthor"
 #
 import logging
 logging.basicConfig(
